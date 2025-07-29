@@ -160,7 +160,7 @@ class WeatherApp(QWidget):
             return ""
 
 if __name__ == "__main__":
-    is_sunny=True
+    is_sunny=False
     app = QApplication(sys.argv)
     weather_app = WeatherApp()
     weather_app.show()
